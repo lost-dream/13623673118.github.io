@@ -14,7 +14,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push --set-upstream git@github.com:lost-dream/lost-dream.github.io.git master
+git push -f git@github.com:lost-dream/lost-dream.github.io.git master
 
 cd -
 
